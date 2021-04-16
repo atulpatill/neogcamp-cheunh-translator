@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+    font-family:"Times New Roman", Times, serif;
+}
+.header-style
+{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    background-color: #DC2626
+    ;
+}
+
+.container{
+    padding: 20px;
+}
+
+.btn
+{
+    background-color: #DC2626
+    ;
+    border: none;padding: 20px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #5B21B6;
+    border-radius: 6px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DC2626
+    ;
+    text-align: center;
+ }
+ textarea{
+     padding: 20px;
+     width: 100%;
+     padding-bottom: 70px;
+ }
+
