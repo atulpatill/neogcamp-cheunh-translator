@@ -2,7 +2,8 @@ var btn = document.querySelector("#clickme");
 var txtIn = document.querySelector("#userinput");
 var output = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/cheunh.json";
+// var serverURL = "https://api.funtranslations.com/translate/cheunh.json";
+var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 function translateURL(text) {
   return serverURL + "?" + "text=" + text;

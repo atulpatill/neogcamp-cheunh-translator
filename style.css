@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 *{
-    font-family:"Times New Roman", Times, serif;
+    font-family: 'Righteous', cursive;
 }
 .header-style
 {
     display: flex;
     padding: 30px;
     justify-content: center;
-    background-color: #DC2626
-    ;
+    background-color: #f2654c;
 }
 
 .container{
@@ -18,13 +17,17 @@
 
 .btn
 {
-    background-color: #DC2626
-    ;
-    border: none;padding: 20px;
+    background-color: #f2894c;
+    border: 2px solid blueviolet;
+    padding: 12px;
     cursor: pointer;
-    width: 100%;
-    border: 1px solid #5B21B6;
+    width: 25%;
+    border: 1px solid olive;
     border-radius: 6px;
+    margin: 20px 55px
+}
+.btn:hover{
+    border: 2px solid brown;
 }
 
 .footer {
@@ -32,13 +35,18 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #DC2626
-    ;
+    background-color: #f2734c;
     text-align: center;
  }
  textarea{
      padding: 20px;
-     width: 100%;
-     padding-bottom: 70px;
+     width: 50%;
+     margin: 20px;
+     border: 2px solid blueviolet;
+     border-radius: 10px;
+     
  }
-
+ textarea:hover{
+     border: 2px solid brown;
+     border-radius: 10px;
+ }
